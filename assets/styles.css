@@ -1,0 +1,47 @@
+.myHeader {
+  background-image: linear-gradient(to right, blue , turquoise);
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+
+.myHeader h1 {
+  padding-top: 8px;
+  color: white;
+}
+
+.sideBar {
+  margin-top: 20px;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-outline-success {
+  background-color: darkblue;
+  color: white;
+  border: none;
+}
+
+.myLine {
+  margin-top: 10px;
+  height: 2px;
+  width: 100%;
+  background-color: grey;
+  border-radius: 5px;
+  opacity: 30%;
+}
+
+.forecastTitle {
+  margin-top: 10px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.col-lg-3 {
+  width: 20%;
+}
