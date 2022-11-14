@@ -31,7 +31,7 @@ var state;
 inputBtn.addEventListener("click", function(event){
   event.preventDefault();
   var state = input.value;
-  var stateUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + state + "&appid=7011eb953ba72b23086bac978cab66f6";
+  var stateUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + state + "&appid=7011eb953ba72b23086bac978cab66f6";
   fetch(stateUrl)
   .then(function (response) {
     return response.json();
